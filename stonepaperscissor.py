@@ -1,4 +1,3 @@
-
 from tkinter import *
 import random
 root = Tk()
@@ -7,6 +6,7 @@ root.configure(bg="orange")
 root.minsize(500,400)
   
 root.title("Rock Paper Scissor Game")
+
 # Computer Value
 computer_value = {
     "0":"Rock",
